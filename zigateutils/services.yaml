@@ -3,6 +3,9 @@ leave_and_rejoin:
     Send leave request
     You should provide the entity_id OR the addr OR the ieee.
   fields:
+    entity_id:
+      description: The device entity_id to remove
+      example: 'zigate.0123456789abcdef'
     addr:
       description: ZiGate address of the device.
       example: 'af7d'
