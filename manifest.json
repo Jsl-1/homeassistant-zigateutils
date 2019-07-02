@@ -4,5 +4,5 @@
   "documentation": "https://github.com/jsl-1/zigateutils/blob/master/Readme.md",
   "dependencies": ["persistent_notification","zigate"],
   "codeowners": ["jsl-1"],
-  "requirements": ["zigate==0.30.1"]
+  "requirements": []
 }
