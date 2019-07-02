@@ -1,4 +1,3 @@
 __pycache__
-.vs/ProjectSettings.json
-.vs/slnx.sqlite
+.vs
 test.sh
