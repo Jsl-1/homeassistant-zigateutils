@@ -8,14 +8,10 @@ from homeassistant.const import ATTR_ENTITY_ID
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.entity_component import DATA_INSTANCES
 
-# from homeassistant.helpers.entity_component import EntityComponent
-# from .frontend.views.nework import (
-#    ZigateNetworkView,
-# )
 
-DOMAIN = 'zigateutils'
-ZIGATE_DOMAIN = 'zigate'
-GROUP_NAME_ALL_ZIGATEUTILS = 'all zigateutils'
+from .const import (DOMAIN, 
+                    ZIGATE_DOMAIN, 
+                    GROUP_NAME_ALL_ZIGATEUTILS)
 
 _LOGGER = logging.getLogger(__name__)
 
